@@ -14,8 +14,9 @@ body{
 }
 .principal{
     background-image: url(imagens/image.png);
-        background-repeat: no-repeat;
-        background-size: contain;
+    background-position: 40em 0em;
+    background-repeat: no-repeat;
+    background-size: 600px;
 }
 .conteiner{
     height: 100vh;
@@ -23,10 +24,29 @@ body{
     grid-template-columns: 33% 33% 33%;
 }
 .conteiner__botao{
-    background-color: var(--botão-azul);
+    background-color:var(--botão-azul);
     border-radius: 5px;
     padding: 1em;
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
+    margin-bottom: 1em;
+}
+.botao__secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+.conteiner__titulo{
+    font-size: 28px;
+    font-weight: 700;
+}
+.conteiner__texto{
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-size: 40px;
+    margin: 30px;
+}
+.conteiner__div{
+    margin: 0 2em;
+    text-align: center;
 }
